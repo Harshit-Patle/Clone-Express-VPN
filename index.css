@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Serif', serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'PT Serif', serif;
+}
+
+.div1 {
+    display: flex;
+    background-image: url(homepage-pingzhu-hero-bg-opt-v2.jpeg);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    flex-direction: column;
+}
+
+.div1 .img1 {
+    width: 250px;
+    height: 60px;
+    margin: 10px 0 0 50px;
+}
+
+.div1 .img2 {
+    height: 260px;
+    width: 572px;
+    position: absolute;
+    bottom: 1px;
+    left: 400px;
+}
+
+.eng {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    position: absolute;
+    right: 250px;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.div1 h1 {
+    font-size: 70px;
+    font-weight: 800;
+    margin: 0 auto;
+    padding-top: 70px;
+    font-stretch: expanded;
+}
+
+.div1 .p1 {
+    font-size: 20px;
+    font-weight: 1000;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.button {
+    color: white;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    width: fit-content;
+    height: fit-content;
+    box-sizing: border-box;
+    border-radius: 40px;
+    background-color: #11846B;
+    margin: 0 auto;
+    font-family: 'PT Serif';
+    align-items: center;
+}
+
+.div1 .p2 {
+    padding-top: 20px;
+    font-size: smaller;
+    font-weight: bolder;
+    margin: 0 auto;
+}
+
+.div2 {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 150px;
+}
+
+.div2 img {
+    width: 250px;
+}
+
+.secur {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: -25px;
+}
+
+.secur h1 {
+    max-width: 250px;
+}
+
+.secur p {
+    max-width: 450px;
+}
+
+.secur .button1 {
+    color: white;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    width: fit-content;
+    height: fit-content;
+    box-sizing: border-box;
+    border-radius: 40px;
+    background-color: #11846B;
+    font-family: 'PT Serif';
+    align-items: center;
+}
+
+.div3 {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 150px;
+}
+
+.div3 img {
+    width: 350px;
+}
+
+.safe {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.safe h1 {
+    max-width: 300px;
+}
+
+.safe p {
+    max-width: 450px;
+}
+
+.div4 {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+}
+
+.div4 img {
+    width: 350px;
+}
+
+.use {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.use h1 {
+    max-width: 300px;
+}
+
+.use p {
+    max-width: 450px;
+}
+
+.ico {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+}
+
+.use .all {
+    color: #00795e;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.use .button1 {
+    color: white;
+    padding: 14px 19px;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    width: fit-content;
+    height: fit-content;
+    box-sizing: border-box;
+    border-radius: 40px;
+    background-color: #11846B;
+    font-family: 'PT Serif';
+    align-items: center;
+}
+
+.div5 {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.div5i {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.div5i img {
+    width: 250px;
+}
+
+.div5i h1 {
+    width: 300px;
+}
+
+.div5i p {
+    width: 300px;
+}
+
+.div6 {
+    background-color: #FDF3F4;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin-top: 150px;
+}
+.div6 img {
+    height: 500px;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+.all1 {
+    margin-top: 150px;
+    color: #00795e;
+    font-weight: 800;
+    text-decoration: underline;
+    margin-left: 47%;
+}
+
+.div6 .all {
+    bottom: 50px;
+    color: #00795e;
+    font-weight: 800;
+    text-decoration: underline;
+    margin-left: 40%;
+    position: absolute;
+}
